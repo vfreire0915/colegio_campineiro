@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(211, 206, 205);
+}
+
+.cabecalho {
+    display: block;
+    text-align: center;
+    padding: 0.2em;
+    background-color: rgb(221, 15, 15);
+}
+
+.titulo__cabecalho {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+}
+
+.titulo__sobre {
+    margin-bottom: 0.5em;
+}
+
+.lista {
+    text-align: center;
+    margin: 1em;
+}
+
+.itens {
+    display: inline;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 1.2em;
+}
+
+.links {
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.localizacao {
+    margin-top: 3em;
+}
+
+.titulo__localizacao {
+    margin-bottom: 0.5em;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    color: #ffffff;
+}
+
+.contato {
+    margin-bottom: 0.5em;
+}
+
+.metodologia {
+    text-align: center;
+    padding: 1em;
+}
+
+.descricao__metodologia {
+    text-align: justify;
+}
+
+.titulo__metodologia {
+    margin-bottom: 0.5em;
+}
+
+.descricao__sobre-nos {
+    text-align: justify;
+}
+
+.img__diretores {
+    width: 200px;
+    height: 250px;
+}
+
+.diretores {
+    text-align: center;
+}
+
+.imagens__diretores {
+    margin-bottom: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    width: 90%;
+}
+
+.descricao__diretor {
+    margin-left: 1em;
+    font-weight: 700;
+}
+
+.titulo__diretores {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.nome {
+    margin-bottom: 1em;
+}
+
+.logo {
+    width: 150px;
+}
+
+.titulo__cabecalho {
+    display: none;
+}
+
+@media screen and  (min-width: 1000px) {
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 2em;
+    }
+
+    .titulo__cabecalho {
+        font-size: 32px;
+    }
+
+    .links {
+        font-size: 20px;
+    }
+
+    .links:hover {
+        color: orange;
+    }
+
+    .descricao__sobre-nos {
+        padding: 0 6em;
+    }
+
+    iframe {
+        width: 83%;
+    }
+
+    .descricao__metodologia {
+        padding: 0 6em;
+    }
+
+    .imagens__diretores {
+        width: 44%;
+        margin: 1em 0.8em;
+    }
+
+    .diretores {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .titulo__cabecalho {
+        display: block;
+    }
+
+}
